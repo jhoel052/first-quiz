@@ -1,0 +1,6 @@
+La mejor manera de cuidar de la seguridad de una aplicación, teniendo en cuenta el OWASP Top 10 es: Primero al escribir código, asegurarse de tener las dependencias actualizadas, tampoco de tener código quemado como contraseñas 
+que sean de fácil acceso para los atacantes, se recomiendo que estén hasheadas y no en texto plano. Sin necesidad de pasar por cada una de las vulnerabilidades del top 10, lo mejor es implementar las arquitecturas de defensa en 
+profundidad que asegura en que cada etapa se cuenta con alguna medida de seguridad como la que se puede tener con una arquitectura de mínimos privilegios, concediendo acceso a lo estrictamente necesario para cada usuario y finalmente,
+tener en cuenta la arquitectura de zero trust, lo cual lleva a que la autenticación y autorización siempre sea tenida en cuenta para cada recurso. Con esto se evitarán la mayoría de las vulnerabilidades. Lo más importante es manejar
+el tema de la ingeniería social, pues en cibeseguridad la mayoría de las amenazas se dan internas, hay que hacer campañas de concientización para evitar abrir puertas por ingeniuidad y desconocimiento que afecten la aplicación y la
+información.
